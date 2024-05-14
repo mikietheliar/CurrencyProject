@@ -10,5 +10,15 @@ class Wallet:
     def __str__(self) -> str:
         return str(self.currencies)
 
-    def buy_currency(self, currency: str, amount) -> None:
+    def buy_currency(self, currency: str, amount: int) -> None:
         self.currencies[currency] += amount
+
+    def sell_currency(self, currency: str, amount: int) -> None:
+        if self.currencies[currency] < amount:
+            print('Not enough money')
+        else:
+            self.currencies[currency] -= amount
+
+
+
+
