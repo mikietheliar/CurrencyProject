@@ -6,3 +6,4 @@ class Wallet:
         self.currencies['eu'] = eu
         self.currencies['gbp'] = gbp
         self.currencies['fr'] = fr
+
