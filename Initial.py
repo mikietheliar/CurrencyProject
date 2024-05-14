@@ -7,3 +7,5 @@ class Wallet:
         self.currencies['gbp'] = gbp
         self.currencies['fr'] = fr
 
+    def __str__(self) -> str:
+        return str(self.currencies)
