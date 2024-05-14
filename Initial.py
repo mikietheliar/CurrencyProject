@@ -9,3 +9,6 @@ class Wallet:
 
     def __str__(self) -> str:
         return str(self.currencies)
+
+    def buy_currency(self, currency: str, amount) -> None:
+        self.currencies[currency] += amount
