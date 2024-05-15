@@ -45,16 +45,31 @@ class Wallet:
 
     def buy_goods(self, goods_currency: str, price: int) -> None:
         if self.buy_goods_check(goods_currency, price):
+            stack = 0
+            price = price * self.rates[goods_currency][goods_currency]
             for currency in self.currencies:
-                if self.currencies[currency] * self.rates[currency][goods_currency] < price:
-                    price -= self.currencies[currency] * self.rates[currency][goods_currency]
-                    self.currencies[currency] = 0
-                else:
-                    self.currencies[currency] -= price / self.rates[goods_currency][currency]
-                    break
+                stack += self.currencies[goods_currency] * self.rates[goods_currency][currency]
+            if stack >= price:
+                for currency in self.currencies:
+                    a = self.currencies[currency] * self.rates[goods_currency][currency]
+                    if a < price:
+                        price -= a
+                        self.currencies[currency] = 0
+                    else:
+                        self.currencies[currency] -= price / self.rates[goods_currency][currency]
+                        break
             print(self.__str__())
         else:
             print('Not enough money')
+
+
+
+
+
+
+
+
+
 
 
 
