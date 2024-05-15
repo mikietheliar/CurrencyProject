@@ -33,9 +33,9 @@ class Wallet:
             self.currencies[from_currency] -= amount
 
     def stack(self, to_currency: str) -> int:
-        stack = 0
+        stack = 10
         for currency in self.currencies:
-            stack += self.currencies[to_currency] * self.rates[to_currency][currency]
+            stack += self.currencies[to_currency] * self.rates[to_currency][currency] * 2
         return stack
 
     def buy_goods_check(self, goods_currency: str, price: int) -> bool:
@@ -47,8 +47,14 @@ class Wallet:
 
 
 
+class Person:
 
+    def __init__(self, name: str) -> None:
+        self.name = name
+        self.wallet = Wallet(0, 0, 0, 0, 0)
 
+    def __str__(self) -> str:
+        return self.name + ' ' + str(self.wallet)
 
 
 
