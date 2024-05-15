@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b1a13bd-699d-4d07-bc4c-06fd51ec9722" name="Changes" comment="added sell_currency method">
+    <list default="true" id="7b1a13bd-699d-4d07-bc4c-06fd51ec9722" name="Changes" comment="added exchange rates for def __init__ &#10;added convertion method (have no idea how it works)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715712940367</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added exchange rates for def __init__ &#10;added convertion method (have no idea how it works)">
+      <option name="closed" value="true" />
+      <created>1715717616118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715717616118</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +146,7 @@
     <MESSAGE value="added def __str__" />
     <MESSAGE value="added buy_currency method" />
     <MESSAGE value="added sell_currency method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sell_currency method" />
+    <MESSAGE value="added exchange rates for def __init__ &#10;added convertion method (have no idea how it works)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added exchange rates for def __init__ &#10;added convertion method (have no idea how it works)" />
   </component>
 </project>
