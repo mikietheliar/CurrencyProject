@@ -63,7 +63,6 @@ class Wallet:
             print('Not enough money')
 
 
-
 class Person:
 
     def __init__(self, name: str) -> None:
@@ -72,6 +71,3 @@ class Person:
 
     def __str__(self) -> str:
         return self.name + ' ' + str(self.wallet)
-
-
-
