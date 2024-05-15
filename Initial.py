@@ -38,6 +38,11 @@ class Wallet:
             stack += self.currencies[to_currency] * self.rates[to_currency][currency]
         return stack
 
+    def buy_goods_check(self, goods_currency: str, price: int) -> bool:
+        if self.stack(goods_currency) >= price:
+            return True
+        return False
+
 
 
 
