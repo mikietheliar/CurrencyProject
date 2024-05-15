@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b1a13bd-699d-4d07-bc4c-06fd51ec9722" name="Changes" comment="added checking method before buying goods" />
+    <list default="true" id="7b1a13bd-699d-4d07-bc4c-06fd51ec9722" name="Changes" comment="added buy_goods_check method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715798284823</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="deleted buy_goods_check method">
+      <option name="closed" value="true" />
+      <created>1715798353649</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715798353649</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added buy_goods_check method">
+      <option name="closed" value="true" />
+      <created>1715798591378</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715798591378</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +191,8 @@
     <MESSAGE value="added check method for buying goods" />
     <MESSAGE value="added exchange rates for def __init__&#10;added convertion method (have no idea how it works)" />
     <MESSAGE value="added checking method before buying goods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added checking method before buying goods" />
+    <MESSAGE value="deleted buy_goods_check method" />
+    <MESSAGE value="added buy_goods_check method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added buy_goods_check method" />
   </component>
 </project>

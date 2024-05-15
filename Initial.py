@@ -47,8 +47,14 @@ class Wallet:
 
 
 
+class Person:
 
+    def __init__(self, name: str) -> None:
+        self.name = name
+        self.wallet = Wallet(0, 0, 0, 0, 0)
 
+    def __str__(self) -> str:
+        return self.name + ' ' + str(self.wallet)
 
 
 
