@@ -32,19 +32,12 @@ class Wallet:
             self.currencies[to_currency] += amount * self.rates[to_currency][from_currency]
             self.currencies[from_currency] -= amount
 
-    def buy_goods_check(self, goods_currency: str, price: int) -> bool:
-        stack = 0
-        for currency in self.currencies:
-            stack += self.currencies[currency] * self.rates[goods_currency][currency]
-        if stack >= price:
-            return True
-        return False
-
     def stack(self, to_currency: str) -> int:
         stack = 0
         for currency in self.currencies:
             stack += self.currencies[to_currency] * self.rates[to_currency][currency]
         return stack
+
 
 
 
