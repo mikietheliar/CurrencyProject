@@ -43,6 +43,22 @@ class Wallet:
             return True
         return False
 
+    def buy_goods(self, goods_currency: str, price: int) -> None:
+        if self.buy_goods_check(goods_currency, price):
+            for currency in self.currencies:
+                if self.currencies[currency] * self.rates[currency][goods_currency] < price:
+                    price -= self.currencies[currency] * self.rates[currency][goods_currency]
+                    self.currencies[currency] = 0
+                else:
+                    self.currencies[currency] -= price / self.rates[goods_currency][currency]
+                    break
+            print(self.__str__())
+        else:
+            print('Not enough money')
+
+
+
+
 
 
 

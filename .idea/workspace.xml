@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b1a13bd-699d-4d07-bc4c-06fd51ec9722" name="Changes" comment="added buy_goods_check method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7b1a13bd-699d-4d07-bc4c-06fd51ec9722" name="Changes" comment="added class Person with methods __init__ and __str__">
       <change beforePath="$PROJECT_DIR$/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715798591378</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added class Person with methods __init__ and __str__">
+      <option name="closed" value="true" />
+      <created>1715801483167</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715801483167</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +199,7 @@
     <MESSAGE value="added checking method before buying goods" />
     <MESSAGE value="deleted buy_goods_check method" />
     <MESSAGE value="added buy_goods_check method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added buy_goods_check method" />
+    <MESSAGE value="added class Person with methods __init__ and __str__" />
+    <option name="LAST_COMMIT_MESSAGE" value="added class Person with methods __init__ and __str__" />
   </component>
 </project>
