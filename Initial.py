@@ -16,8 +16,9 @@ class Wallet:
     def __str__(self) -> str:
         return str(self.currencies)
 
-    def buy_currency(self, currency: str, amount: int) -> None:
+    def buy_currency(self, currency: str, amount: int) -> str:
         self.currencies[currency] += amount
+        return str(self.currencies)
 
     def sell_currency(self, currency: str, amount: int) -> None:
         if self.currencies[currency] < amount:
@@ -63,7 +64,6 @@ class Wallet:
             print('Not enough money')
 
 
-
 class Person:
 
     def __init__(self, name: str) -> None:
@@ -72,6 +72,3 @@ class Person:
 
     def __str__(self) -> str:
         return self.name + ' ' + str(self.wallet)
-
-
-
